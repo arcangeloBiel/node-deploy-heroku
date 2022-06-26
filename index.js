@@ -4,7 +4,7 @@ const app = express();
  const port = process.env.PORT || 3000;
 
  const lista = [ 
-     {'1': {Codigo: 1,  NomeRegra: 'Encarte',TipoRegra:  1}}
+      {Codigo: 1,  NomeRegra: 'Encarte',TipoRegra:  1, 'listaFamilia': ["Maculino", "Femenino"]}
     ]
 
 
