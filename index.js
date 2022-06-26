@@ -8,7 +8,7 @@ const app = express();
     ]
 
 
- app.get("/listaFiltro", function (req, res) {
+ app.get("/", function (req, res) {
    
        res.send(lista);
  });
